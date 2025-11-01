@@ -1,6 +1,6 @@
-import React from 'react'
 import type { Product } from '../types'
 import { ProductCard } from './ProductCard'
+import type { JSX } from 'react'
 
 type Props = {
 	products: Product[]

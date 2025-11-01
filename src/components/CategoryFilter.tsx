@@ -1,5 +1,5 @@
-import React from 'react'
 import type { Product } from '../types'
+import type { JSX } from 'react'
 
 type Props = {
 	categories: Product['category'][]
