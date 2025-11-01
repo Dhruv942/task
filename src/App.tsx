@@ -20,7 +20,6 @@ export function App(): JSX.Element {
 	const [minPrice, setMinPrice] = useState<string>('')
 	const [maxPrice, setMaxPrice] = useState<string>('')
 
-	// Debounce the search query
 	useEffect(() => {
 		const timer = setTimeout(() => {
 			setDebouncedQuery(query)

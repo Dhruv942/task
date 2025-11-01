@@ -34,7 +34,6 @@ export function TopBar({
 }: Props): JSX.Element {
 	return (
 		<div className="mt-5 space-y-5">
-			{/* Search Bar */}
 			<input
 				type="text"
 				value={query}
@@ -43,9 +42,7 @@ export function TopBar({
 				className="w-full rounded-xl border-2 border-gray-300 px-5 py-4 text-base shadow-sm focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200"
 			/>
 			
-			{/* Filters and Sort Row */}
 			<div className="flex flex-wrap gap-4 items-center">
-				{/* Category Filter */}
 				<div className="flex items-center gap-3">
 					<span className="text-sm font-semibold text-gray-700">Category:</span>
 					<div className="flex flex-wrap gap-2">
@@ -65,7 +62,6 @@ export function TopBar({
 					</div>
 				</div>
 
-				{/* Price Filter */}
 				<div className="flex items-center gap-3 ml-auto">
 					<span className="text-sm font-semibold text-gray-700">Price:</span>
 					<input
@@ -85,7 +81,6 @@ export function TopBar({
 					/>
 				</div>
 
-				{/* Sort Controls */}
 				<div className="flex items-center gap-3">
 					<span className="text-sm font-semibold text-gray-700">Sort by:</span>
 					<select

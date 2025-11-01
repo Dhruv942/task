@@ -11,7 +11,6 @@ export type Product = {
 export type SortKey = 'name' | 'price' | 'rating'
 export type SortOrder = 'asc' | 'desc'
 
-// Raw API type from Fake Store API (simplified per docs)
 export type ApiProduct = {
 	id: number
 	title: string
